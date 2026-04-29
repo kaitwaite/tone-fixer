@@ -14,7 +14,7 @@ export default function Home() {
         <span className="footer-left">A Kate Haan tool</span>
         <a
           className="footer-right"
-          href="https://github.com/kaitwaite/Tone_Fixer"
+          href="https://github.com/kaitwaite/tone-fixer"
           target="_blank"
           rel="noopener noreferrer"
         >
