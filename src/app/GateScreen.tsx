@@ -124,7 +124,7 @@ export default function GateScreen({ onEnter }: GateScreenProps) {
 
       <div className="gate-footer">
         <span className="gate-footer-left">A Kate Haan tool</span>
-        <span className="gate-footer-right">Built with Claude &middot; GitHub</span>
+        <span className="gate-footer-right">Built with Claude Code &middot; OpenAI Wispr &middot; GitHub</span>
       </div>
     </div>
   )
