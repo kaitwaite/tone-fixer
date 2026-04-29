@@ -178,7 +178,7 @@ export default function ToneFixer() {
         >
           {isRewriting && !showResult
             ? "Rewriting\u2026"
-            : "Rewrite in my voice \u2192"}
+            : "Rewrite in my voice"}
         </button>
         <button className="btn-clear" onClick={clear}>\u2715</button>
       </div>
