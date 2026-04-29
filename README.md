@@ -1,4 +1,4 @@
-# Tone Fixer
+# 🙊 Tone Fixer
 
 > Dictate your unfiltered reaction. Get back a version that sounds like your actual professional voice — not HR-sanitized corporate-speak.
 
