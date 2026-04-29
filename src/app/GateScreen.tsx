@@ -117,7 +117,7 @@ export default function GateScreen({ onEnter }: GateScreenProps) {
               textDecoration: "none",
             }}
           >
-            Get a key at console.anthropic.com \u2192
+            Get a key at console.anthropic.com
           </a>
         </div>
       </div>
