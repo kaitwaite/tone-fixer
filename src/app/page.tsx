@@ -1,6 +1,16 @@
-import ToneFixer from "./ToneFixer"
+"use client"
+
+import { useState } from "react"
+import GateScreen from "./GateScreen"
+import ToneFixerBYOK from "./ToneFixerBYOK"
 
 export default function Home() {
+  const [apiKey, setApiKey] = useState("")
+
+  if (!apiKey) {
+    return <GateScreen onEnter={setApiKey} />
+  }
+
   return (
     <main className="page">
       <header className="page-header">
@@ -8,7 +18,7 @@ export default function Home() {
         <p>Speak raw. Send polished.</p>
       </header>
 
-      <ToneFixer />
+      <ToneFixerBYOK apiKey={apiKey} onChangeKey={() => setApiKey("")} />
 
       <footer className="footer">
         <span className="footer-left">A Kate Haan tool</span>
