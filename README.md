@@ -4,7 +4,7 @@
 
 A lightweight AI-powered tool that rewrites raw, dictated reactions into polished, sendable messages — without stripping out your personality or directness.
 
-**[Try the live demo →](https://tone-fixer-public.vercel.app)**
+**[Try the live demo →](https://tone-fixer-demo.katehaan.dev)**
 
 ---
 
